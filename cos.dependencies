@@ -6,8 +6,8 @@
     "remote":      "devices"
   },
   {
-    "repository":  "android_vendor_huawei",
-    "target_path": "vendor/huawei",
+    "repository":  "android_vendor_huawei_berkeley",
+    "target_path": "vendor/huawei/berkeley",
     "branch":      "oreo-mr1",
     "remote":      "devices"
   },
