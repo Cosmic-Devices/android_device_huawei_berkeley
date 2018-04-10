@@ -218,4 +218,10 @@
         <item>/sys/class/power_supply/Battery/scp_status</item>
     </string-array>
 
+    <!-- Enable doze alwaysOn Display -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">true</bool>
+
 </resources>
