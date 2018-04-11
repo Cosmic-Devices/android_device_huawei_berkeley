@@ -16,6 +16,10 @@
 
 $(call inherit-product, device/huawei/berkeley/full_berkeley.mk)
 
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
 # Inherit some common Cosmic-OS stuff.
 $(call inherit-product, vendor/cos/common.mk)
 
