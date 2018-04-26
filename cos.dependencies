@@ -1,20 +1,10 @@
 [
   {
     "repository":  "android_kernel_common",
-    "target_path": "kernel/common",
-    "branch":      "oreo-mr1",
-    "remote":      "devices"
+    "target_path": "kernel/common"
   },
   {
     "repository":  "android_vendor_huawei_berkeley",
-    "target_path": "vendor/huawei/berkeley",
-    "branch":      "oreo-mr1",
-    "remote":      "devices"
-  },
-  {
-    "repository":  "MindTheGapps/vendor_gapps",
-    "target_path": "vendor/gapps",
-    "branch":      "master",
-    "remote":      "github"
+    "target_path": "vendor/huawei/berkeley"
   }
 ]
