@@ -55,6 +55,7 @@ TARGET_RRO_OUT_SYSTEM := true
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # Recovery
+BOARD_PROVIDES_BOOTLOADER_MESSAGE := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.kirin970
 
 # Release tools
